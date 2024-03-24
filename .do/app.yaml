@@ -1,0 +1,9 @@
+name: Vamoss - NFT Gallery
+services:
+- build_command: npm run build:digitalocean
+  environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: vamoss/nft-gallery
+  name: nft-gallery
